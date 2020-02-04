@@ -27,6 +27,11 @@ img {
   max-width: 100%;
 }
 
+a{
+  color: #099daf;
+  font-weight: bold;
+}
+
 a:focus,
 input:focus,
 textarea:focus,
@@ -95,7 +100,7 @@ ul,
 ol {
   margin: 0px;
   padding: 0px;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 p {
@@ -145,23 +150,23 @@ p {
   background-color: #099daf;
 }
 
-.slack-btn{
+.blue-btn{
   background-color: #052949;
   border: 2px solid #052949;
 }
 
-.slack-btn:hover{
+.blue-btn:hover{
   background-color: #fff;
   border: 2px solid #052949;
   color: #052949;
 }
 
-.email-btn{
+.green-btn{
   background-color: #099daf;
   border: 2px solid #099daf;
 }
 
-.email-btn:hover{
+.green-btn:hover{
   background-color: #fff;
   border: 2px solid #099daf;
   color: #099daf;
@@ -544,6 +549,10 @@ p {
   color: #099daf;
 }
 
+#nav .resources{
+  color: #099daf;
+}
+
 /*===== HEADER HERO =====*/
 
 .header-hero-content {
@@ -664,9 +673,20 @@ p {
   border-radius: 10px;
   overflow: hidden;
 }
+/*===========================
+     new events
+===========================*/
+.new-events p, .new-events h5, .new-events ul, .new-events h4{
+  margin-top: 15px;
+}
+
+.new-events p a{
+  color: #099daf;
+  font-weight: bold;
+}
 
 /*===========================
-     08.past css 
+     past css 
 ===========================*/
 .single-past {
   background-color: #fff;
@@ -728,6 +748,10 @@ p {
       width: 15px;
       height: 15px; }
 
+#past-events p a{
+  color: #099daf;
+  font-weight: bold;
+}
 /*===========================
     JOIN US
 ===========================*/
@@ -928,6 +952,14 @@ p {
   color: #052949;
 }
 
+.footer-contact li {
+  list-style-type: none;
+}
+
+.footer-contact a:hover{
+  color: #099daf;
+}
+
 /*===== BACK TO TOP =====*/
 .back-to-top {
   font-size: 20px;
@@ -953,4 +985,20 @@ p {
 }
 .back-to-top:hover {
   color: #fff;
+}
+
+
+/* Resources */
+
+#fall-2019 ul{
+  list-style-type: none;
+}
+
+#fall-2019 a{
+  font-weight: normal;
+  color: #052949;
+}
+
+#fall-2019 a:hover{
+  color: #099daf;
 }
