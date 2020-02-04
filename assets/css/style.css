@@ -103,7 +103,7 @@ ul,
 ol {
 	margin: 0px;
 	padding: 0px;
-	/* list-style-type: none; */
+	list-style-type: none;
 }
 
 p {
@@ -122,6 +122,19 @@ p {
 	height: 100%;
 }
 
+.list div{
+	margin-left: 0.635em;
+}
+
+.list li{
+	display: flex;
+	padding: 0.5em;
+}
+
+.list li i{
+	color: #099daf;
+	margin-top: 0.3em;
+}
 
 /*===== All Slick Slide Outline Style =====*/
 
@@ -1090,9 +1103,7 @@ p {
 	height: 40px;
 	line-height: 40px;
 	border-radius: 5px;
-	background: -webkit-linear-gradient(left, #099daf 0%, #2e82ef 100%);
-	background: -o-linear-gradient(left, #099daf 0%, #2e82ef 100%);
-	background: linear-gradient(to right, #099daf 0%, #2e82ef 100%);
+	background-color: #099daf;
 	text-align: center;
 	z-index: 99;
 	-webkit-transition: all 0.3s ease-out 0s;
