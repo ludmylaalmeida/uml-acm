@@ -582,16 +582,16 @@ p {
 	}
 }
 
-.sticky .navbar-toggler .toggler-icon {
-	background-color: #2e2e2e;
+.navbar-toggler .toggler-icon {
+	background-color: #052949;
 }
 
-.sticky .navbar-nav .nav-item a {
-	color: #2e2e2e;
+.navbar-nav .nav-item a {
+	color: #052949;
 }
 
-.sticky .navbar-nav .nav-item.active>a,
-.sticky .navbar-nav .nav-item:hover>a {
+.navbar-nav .nav-item.active>a,
+.navbar-nav .nav-item:hover>a {
 	color: #099daf;
 }
 
@@ -1101,7 +1101,6 @@ p {
 	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
-	display: none;
 }
 
 .back-to-top:hover {
