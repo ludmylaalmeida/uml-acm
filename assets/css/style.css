@@ -993,8 +993,7 @@ p {
 .bubble-wrapper .single-bubble img {
 	z-index: 0;
 	position: relative;
-	width: 80%;
-	padding-right: 10px;
+	width: 90%;
 }
 
 @media (max-width: 767px) {
@@ -1131,4 +1130,17 @@ p {
 
 #fall-2019 a:hover {
 	color: #099daf;
+}
+
+.card-div p{
+	color: #00bfda;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.card-image{
+    height: 6rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
 }
